@@ -54,7 +54,6 @@ if "chat_session" not in st.session_state:
     st.session_state.chat_session = model.start_chat(history=[])
 
 st.title("🗿 I am Aayushmaan's AI 🗿")
-st.markdown("[👉 Check out my GitHub!](https://github.com/Aayushmaan-24)")
 
 # Display chat history
 for message in st.session_state.chat_session.history:
