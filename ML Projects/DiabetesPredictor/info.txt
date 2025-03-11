@@ -1,0 +1,33 @@
+# Diabetes Prediction Project
+
+This project aims to predict diabetes based on various diagnostic measurements included in the PIMA Diabetes Dataset. The dataset contains several medical predictor variables and one target variable, Outcome. Predictor variables include the number of pregnancies, glucose concentration, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, and age.
+
+## Overview
+
+The project performs data analysis and builds predictive models using several classification algorithms to determine the likelihood of diabetes.
+
+## Libraries Used
+
+-   NumPy: Used for numerical computations.
+-   Pandas: Used for data manipulation and analysis.
+-   Scikit-learn: Used for machine learning tasks such as model training, validation, and evaluation.
+-   XGBoost: Used for implementing the XGBoost classifier.
+
+## Algorithms Implemented
+
+-   Logistic Regression: A linear model for binary classification.
+-   Random Forest Classifier: An ensemble learning method that constructs a multitude of decision trees.
+-   XGBoost Classifier: An optimized gradient boosting algorithm.
+-   Support Vector Machine (SVM): A powerful and versatile Machine Learning model
+
+## Data Source
+
+-   PIMA Diabetes Dataset: The dataset is available on Kaggle and UCI Machine Learning Repository. The dataset is loaded from a CSV file named `diabetes.csv`.
+
+## Data Preprocessing
+
+-   Data Scaling: StandardScaler is used to scale the features to have zero mean and unit variance.
+
+## Evaluation Metric
+
+-   Accuracy Score: Used to evaluate the performance of the models.
