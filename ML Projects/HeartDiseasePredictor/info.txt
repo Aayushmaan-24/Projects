@@ -1,0 +1,35 @@
+# Heart Disease Prediction Project
+
+This project aims to predict the presence of heart disease in patients using a dataset of various medical attributes. The primary goal is to develop a machine learning model that can accurately classify individuals as either having or not having heart disease based on their medical history and diagnostic measurements.
+
+## Overview
+
+The project involves data loading, preprocessing, model training, and evaluation. The dataset includes features such as age, sex, chest pain type, resting blood pressure, cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression induced by exercise relative to rest, the slope of the peak exercise ST segment, number of major vessels, and thal.
+
+## Libraries Used
+
+-   NumPy: Used for numerical operations and array manipulation.
+-   Pandas: Used for data manipulation and analysis, particularly for loading and working with tabular data.
+-   Scikit-learn: Used for machine learning tasks such as data splitting, model training, and evaluation.
+
+## Algorithms Implemented
+
+-   Logistic Regression: A linear model for binary classification, used to predict the probability of a patient having heart disease.
+
+## Data Source
+
+-   Heart Disease Dataset: The dataset is loaded from a CSV file named `heart.csv`.
+
+## Data Loading
+
+-   The dataset is loaded using `pandas.read_csv()` from a local file.
+
+## Model Training
+
+-   The dataset is split into training and testing sets using `train_test_split()` from Scikit-learn.
+-   A Logistic Regression model is initialized and trained on the training data.
+
+## Evaluation
+
+-   The trained model is used to make predictions on the test set.
+-   The accuracy of the model is evaluated using `accuracy_score()` from Scikit-learn.
