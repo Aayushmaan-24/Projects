@@ -1,0 +1,16 @@
+This is a Breast Cancer Prediction App made purely in Python and deployed using streamlit.
+
+Libraries used:
+
+Numpy: For working with arrays
+Pandas: For preprocessing and cleaning data
+Scikit-learn: To use the accuracy_score and Logistic Regression model
+Streamlit: To create a web app and deploy it
+Pickle: To save and load the trained ML model
+Plotly: To plot a graphical indicator using the data
+
+Data: A breast cancer dataset from kaggle. The same is uploaded in this folder
+
+Workflow:
+
+imported the libraries and perfomed EDA (basic). Then created and trained the model, evaluated it and saved it as a pickle file. Later imported the saved model, and built a web interface using streamlit wherein the user gives all the input (using sliders) and the plotly graph indicates whether the cancer is benign or malignant.
